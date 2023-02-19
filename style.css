@@ -41,9 +41,10 @@ body{
 
 .input:focus{
     background:rgb(231, 245, 250);
-    border: 0.1px solid rgb(59, 191, 252);
-    border-width: 0.1px;
+    border: 0.1px solid rgb(104, 178, 224);
+    outline: none !important;
 }
+
 
 input::placeholder {
     font-family: 'Courier New', Courier, monospace;
