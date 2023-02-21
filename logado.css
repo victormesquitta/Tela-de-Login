@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(197, 255, 192);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,3 +13,26 @@ body{
       height: 100px;
     }
 }
+#main-box{
+  background-color: white;
+  width: 200%;
+  height: 50%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+#login{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.container{
+  text-align: center;
+  margin-top: 10%;
+}
+#imagem{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+

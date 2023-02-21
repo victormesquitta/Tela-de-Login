@@ -9,29 +9,18 @@
 </head>
 <body>
     <div id="main-box">
-        <div class="data">
-            <form method="post" action="">
-                <h1 id="login">Cadastre-se</h1>
-                <p class="container">
-                    <input id = "names" class="input" name="names" required = "required" type = "text" placeholder="Nome" >
-                </p>
-                <p class="container">
-                    <input id = "names" class="input" name="names" required = "required" type = "text" placeholder="Sobrenome" >
-                </p>
-                <p class="container">
-                    <input id = "names" class="input" name="names" required = "required" type = "text" placeholder="E-mail" >
-                </p>
-                <p class="container">
-                    <input id = "senha" class="input" name="senha" required = "required" type = "password" placeholder="Senha" >
-                </p>
-                <p class="container">
-                    <input id = "names" class="input" name="names" required = "required" type = "text" placeholder="dd/mm/aa" >
-                </p>
-                <p>
-                    <input type="submit" id="botao_cadastrar" class="button" value = "Cadastre-se"/>
-                </p>
+        <div id="data">
+            <form action="/index.html">
+                <h1 id="titulo">Cadastre-se</h1>
+                <hr>
+                <input id = "name" class="input" name="name" required = "required" type = "text" placeholder="Nome" >
+                <input id = "lastname" class="input" name="lastname" required = "required" type = "text" placeholder="Sobrenome">
+                <input id = "email" class="input_1" name="email" required = "required" type = "text" placeholder="E-mail" >
+                <input id = "senha" class="input_1" name="senha" required = "required" type = "password" placeholder="Senha" >
+                <input id = "data" class="input_1" name="data" required = "required" type = "text" placeholder="dd/mm/aa" >
+                <input type="submit" id="botao_cadastrar" class="button" value = "Cadastre-se"/>
             </form>
-            <p id="cadastro">
+            <p id="voltar">
                 <a href="index.html">
                     <input type="button" id="botao_voltar" class="button" value = "Voltar">
                 </a>
