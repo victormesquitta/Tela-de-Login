@@ -12,7 +12,7 @@ body{
       width: 100px;
       height: 100px;
     }
-  }
+}
 
 #main-box{
     background-color: white;
@@ -87,11 +87,13 @@ input::placeholder {
 }
 
 #botao_logar{
-    width: 60px;
+    width: 13%;
+    margin-top: 3%;
 }
 
 #botao_cadastra{
-    width: 100px;
+    width: 22%;
+    margin-left: 2%;
 }
 
 
@@ -112,3 +114,9 @@ input::placeholder {
 label, p, h1, a{
     user-select: none;
   }
+
+#cadastro{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
