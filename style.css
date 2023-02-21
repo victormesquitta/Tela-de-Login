@@ -109,6 +109,6 @@ input::placeholder {
     
 }
 
-label, p, h1 {
+label, p, h1, a{
     user-select: none;
   }
